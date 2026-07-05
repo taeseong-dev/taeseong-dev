@@ -1,15 +1,12 @@
 ## Career & Education
 
 ### Career
-
 - **2024.11 ~ 2026.05**
   - 반도체 IP Verification 업무
 
 ### Education
-
 - **2026.01 ~**
   - 온디바이스 AI 시스템반도체 설계(1기)
-
 - **2023.06 ~ 2023.09**
   - ETRI 디지털 RTL 회로설계 전문가 과정
 <!--
