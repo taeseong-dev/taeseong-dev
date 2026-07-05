@@ -21,13 +21,13 @@ RTL 설계 및 검증 엔지니어를 목표로 하고 있습니다.
 - **Environment** : Linux, Vim
 
 ## Projects
-### [SPI RTL Design](링크)
-Verilog 기반 SPI Master/Slave 설계 및 FPGA 검증
 
-### [I2C RTL Design](링크)
-Verilog 기반 I2C Master 설계 및 FPGA 검증
+### [RTL Protocol Design](https://github.com/아이디/rtl-protocol-design)
 
-### [RV32I 기반 APB 시스템](링크)
-RV32I CPU와 APB Peripheral을 설계하고 FPGA 검증
+Verilog 기반 SPI Master/Slave 및 I2C Master RTL 설계와 FPGA 검증
+
+### [RV32I APB System](https://github.com/아이디/rv32i-apb-system)
+
+RV32I CPU와 APB Peripheral을 설계하고 FPGA에서 동작 검증
 
 ### VGA 추가 예정
