@@ -22,12 +22,12 @@ RTL 설계 및 검증 엔지니어를 목표로 하고 있습니다.
 
 ## Projects
 
-### [RTL Protocol Design](https://github.com/아이디/rtl-protocol-design)
+### I2C / SPI protocol RTL 설계 및 FPGA 검증
+[I2C/SPI RTL Design](https://github.com/taeseong-dev/i2c_spi_rtl-design)
 
-Verilog 기반 SPI Master/Slave 및 I2C Master RTL 설계와 FPGA 검증
 
-### [RV32I APB System](https://github.com/아이디/rv32i-apb-system)
-
-RV32I CPU와 APB Peripheral을 설계하고 FPGA에서 동작 검증
+### APB Peripheral을 설계 및 FPGA 동작 검증
+[APB bus](https://github.com/taeseong-dev/apb-bus-peripherals)
 
 ### VGA 추가 예정
+[VGA rhythm game](https://github.com/taeseong-dev/vga_rhythm_game)
