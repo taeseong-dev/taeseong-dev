@@ -23,7 +23,7 @@ RTL 설계 및 검증 엔지니어를 목표로 하고 있습니다.
 ## Projects
 
 ### I2C / SPI protocol RTL 설계 및 FPGA 검증
-[I2C/SPI RTL Design](https://github.com/taeseong-dev/i2c_spi_rtl-design)
+[I2C/SPI RTL Design](https://github.com/taeseong-dev/i2c-spi-rtl-design)
 
 
 ### APB Peripheral을 설계 및 FPGA 동작 검증
