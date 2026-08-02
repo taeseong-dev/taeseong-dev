@@ -14,8 +14,8 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 `2023.11 — 2025.05`
 
 - Automotive BIST / Pixel Shift IP 검증
-- RTL Spec 분석
-- Simulation 및 FPGA 검증
+- RTL Spec 분석 및 Verilog Testbench 작성
+- Simulation 및 FPGA 기반 검증
 
 ---
 
@@ -24,9 +24,9 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 | Category | Skills |
 |:---|:---|
 | HDL | Verilog, SystemVerilog |
-| Verification | UVM, Testbench, Simulation, FPGA |
-| Protocol | AMBA APB, I2C, SPI, UART |
-| Programming | C |
+| Verification | UVM, Testbench, Simulation |
+| Bus / Protocol | AMBA APB, I2C, SPI, UART |
+| Programming | C, Python |
 | EDA Tools | Vivado, Vitis, VCS, Xcelium, Verdi |
 | Environment | Linux, Vim |
 
@@ -36,7 +36,7 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 
 | 기간 | 교육기관 | 과정 |
 |:---:|:---|:---|
-| 2026.01 ~ Present | 서울기술교육센터 | 온디바이스 AI 시스템반도체 설계 과정 1기 |
+| 2026.01 ~ 현재 | 서울기술교육센터 | 온디바이스 AI 시스템반도체 설계 과정 1기 |
 | 2023.06 ~ 2023.09 | ETRI SW-SoC 융합 아카데미 | 디지털 RTL 회로설계 전문가 과정 |
 
 ---
@@ -64,7 +64,7 @@ Simulation, UVM 및 두 FPGA 간 통신을 통해 동작을 검증했습니다.
 
 ### 02. APB Bus & Peripheral Design
 
-`Verilog` `AMBA APB` `BRAM` `GPIO` `UART` `FND` `Basys3`
+`Verilog` `SystemVerilog` `AMBA APB` `BRAM` `GPIO` `UART` `Basys3`
 
 APB Bus와 Memory-Mapped Peripheral을 RTL로 설계하고  
 Simulation 및 FPGA에서 동작을 검증했습니다.
@@ -80,7 +80,7 @@ Simulation 및 FPGA에서 동작을 검증했습니다.
 
 ### 03. OV7670·VGA Rhythm Game
 
-`Verilog` `OV7670` `VGA` `UART` `Basys3`
+`Verilog` `SystemVerilog` `OV7670` `VGA` `UART` `Basys3`
 
 OV7670 영상 입력과 VGA 출력을 활용한  
 4-Lane 리듬게임 팀 프로젝트입니다.
