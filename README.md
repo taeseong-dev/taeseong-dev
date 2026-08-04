@@ -90,3 +90,19 @@ OV7670 영상 입력과 VGA 출력을 활용한
 - Simulation 및 FPGA 동작 검증
 
 [Repository →](https://github.com/taeseong-dev/vga_rhythm_game)
+
+---
+
+### 04. RISC-V RV32I CPU Design
+
+`Verilog` `RISC-V` `RV32I` `Single-Cycle` `Vivado`
+
+RV32I 기본 명령어 37개를 지원하는 Single-Cycle CPU를 RTL로 설계하고  
+Instruction Type별 Simulation을 통해 동작을 검증했습니다.
+
+- Instruction Fetch, Decode, Execute, Memory Access 및 Writeback Datapath 설계
+- R-Type, I-Type, S-Type, B-Type, U-Type 및 J-Type 명령어 구현
+- Byte, Halfword 및 Word 단위 Load/Store 구현
+- ALU 연산, Memory Access, Register Writeback 및 PC Update 검증
+
+[Repository →](https://github.com/taeseong-dev/riscv-rv32i-cpu)
