@@ -9,8 +9,6 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 
 ## Career
 
-### IP Verification
-
 `2023.11 — 2025.05`
 
 - Automotive BIST / Pixel Shift IP 검증
