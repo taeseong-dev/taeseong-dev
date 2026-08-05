@@ -9,7 +9,7 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 
 ## Career
 
-### Semiconductor IP Verification
+### 반도체 IP Verification
 
 `2023.11 — 2025.05`
 
