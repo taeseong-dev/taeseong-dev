@@ -93,14 +93,14 @@ OV7670 영상 입력과 VGA 출력을 활용한
 
 ### 04. RISC-V RV32I CPU Design
 
-`Verilog` `RISC-V` `RV32I` `Single-Cycle` `Vivado`
+`Verilog` `RISC-V` `RV32I` `Single-Cycle` `Multi-Cycle` `Vivado`
 
-RV32I 기본 명령어 37개를 지원하는 Single-Cycle CPU를 RTL로 설계하고  
-Instruction Type별 Simulation을 통해 동작을 검증했습니다.
+RV32I 기본 명령어 37개를 지원하는 Single-Cycle CPU를 RTL로 설계하고,  
+명령어 실행 단계를 분리한 FSM 기반 Multi-Cycle CPU로 확장했습니다.
 
-- Instruction Fetch, Decode, Execute, Memory Access 및 Writeback Datapath 설계
-- R-Type, I-Type, S-Type, B-Type, U-Type 및 J-Type 명령어 구현
+- Instruction Type별 Datapath 및 Control Logic 설계
 - Byte, Halfword 및 Word 단위 Load/Store 구현
-- ALU 연산, Memory Access, Register Writeback 및 PC Update 검증
+- `FETCH`, `DECODE`, `EXECUTE`, `MEM`, `WB` 기반 Multi-Cycle FSM 설계
+- ALU 연산, Memory Access, Branch·Jump 및 State 전환 Simulation 검증
 
 [Repository →](https://github.com/taeseong-dev/riscv-rv32i-cpu)
