@@ -95,8 +95,8 @@ OV7670 영상 입력과 VGA 출력을 활용한
 
 `Verilog` `RISC-V` `RV32I` `Single-Cycle` `Multi-Cycle` `Vivado`
 
-RV32I 기본 명령어 37개를 지원하는 Single-Cycle CPU를 RTL로 설계하고,  
-명령어 실행 단계를 분리한 FSM 기반 Multi-Cycle CPU로 확장했습니다.
+RV32I 기본 명령어 37개를 지원하는 Single-Cycle CPU를 설계하고,  
+명령어 실행 단계를 분리한 FSM 기반 Multi-Cycle 구조로 확장했습니다.
 
 - Instruction Type별 Datapath 및 Control Logic 설계
 - Byte, Halfword 및 Word 단위 Load/Store 구현
