@@ -62,14 +62,15 @@ Simulation, UVM 및 두 FPGA 간 통신을 통해 동작을 검증했습니다.
 
 ### 02. APB Bus & Peripheral Design
 
-`Verilog` `SystemVerilog` `AMBA APB` `BRAM` `GPIO` `UART` `Basys3`
+`Verilog` `SystemVerilog` `UVM` `AMBA APB` `VCS` `Verdi` `Basys3`
 
-APB Bus와 Memory-Mapped Peripheral을 RTL로 설계하고  
-Simulation 및 FPGA에서 동작을 검증했습니다.
+APB Bus와 Memory-Mapped Peripheral을 RTL로 설계하고
+Simulation, UVM 및 FPGA를 통해 동작을 검증했습니다.
 
 - APB Master 및 Address Decoder 설계
 - BRAM, GPIO, UART, FND Peripheral 구현
 - RV32I CPU와 APB Peripheral 연동
+- SystemVerilog/UVM 기반 APB 및 Peripheral 검증
 - Basys3 FPGA 동작 검증
 
 [Repository →](https://github.com/taeseong-dev/apb-bus-peripherals)
