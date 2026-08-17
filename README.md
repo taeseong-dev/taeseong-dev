@@ -50,7 +50,7 @@ Verilog/SystemVerilog 기반 RTL 설계 및 검증 엔지니어를 목표로 하
 I2C 및 SPI Master/Slave를 RTL로 설계하고  
 Simulation, UVM 및 두 FPGA 간 통신을 통해 동작을 검증했습니다.
 
-- I2C Read/Write 및 Multi-byte Transfer 구현
+- I2C Read/Write 및 Multi-byte Write 구현
 - SPI Mode 0~3 Master 및 Mode 0 Slave 구현
 - Random Sequence 기반 Scoreboard 검증
 - Functional Coverage 측정
